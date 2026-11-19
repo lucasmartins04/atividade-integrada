@@ -1,0 +1,45 @@
+
+{
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Vodka Smirnoff",
+      "categoria": "Vodka",
+      "volume": "1L",
+      "preco": 39.90,
+      "estoque": 15,
+      "imagem": "",
+      "descricao": "Vodka tradicional."
+    },
+    {
+      "id": "2",
+      "nome": "Whisky Red Label",
+      "categoria": "Whisky",
+      "volume": "1L",
+      "preco": 89.90,
+      "estoque": 8,
+      "imagem": "",
+      "descricao": "Whisky escocês."
+    },
+    {
+      "id": "3",
+      "nome": "Gin Beefeater",
+      "categoria": "Gin",
+      "volume": "750ml",
+      "preco": 99.90,
+      "estoque": 0,
+      "imagem": "",
+      "descricao": "Gin tradicional."
+    },
+    {
+      "id": "4",
+      "nome": "Red Bull",
+      "categoria": "Energético",
+      "volume": "250ml",
+      "preco": 9.90,
+      "estoque": 20,
+      "imagem": "",
+      "descricao": "Bebida energética."
+    }
+  ]
+}

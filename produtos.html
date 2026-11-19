@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos | Adega Delivery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Adega Delivery</h1>
+
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="admin.html">Administração</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Nossos produtos</h2>
+
+        <section>
+            <input
+                type="text"
+                id="pesquisa"
+                placeholder="Pesquisar produto..."
+            >
+
+            <select id="categoria">
+                <option value="">Todas as categorias</option>
+                <option value="Vodka">Vodka</option>
+                <option value="Whisky">Whisky</option>
+                <option value="Gin">Gin</option>
+                <option value="Energético">Energético</option>
+            </select>
+        </section>
+
+        <section id="lista-produtos">
+            <p>Carregando produtos...</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Adega Delivery - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="produtos.js"></script>
+</body>
+</html>
