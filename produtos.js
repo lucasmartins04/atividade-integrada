@@ -39,15 +39,21 @@ function mostrarProdutos(lista) {
 
         card.style.cursor = "pointer";
 
-card.addEventListener("click", () => {
-    abrirModal(produto);
-});
+        card.addEventListener("click", () => {
+            abrirModal(produto);
+        });
 
         const disponibilidade = produto.estoque > 0
             ? "Disponível"
             : "Esgotado";
 
         card.innerHTML = `
+            <img
+                src="${produto.imagem}"
+                alt="${produto.nome}"
+                class="imagem-produto"
+            >
+
             <h3>${produto.nome}</h3>
             <p>Categoria: ${produto.categoria}</p>
             <p>Volume: ${produto.volume}</p>
@@ -82,6 +88,7 @@ function filtrarProdutos() {
 
     const resultado = produtos.filter(produto => {
         const correspondeNome = produto.nome.toLowerCase().includes(texto);
+
         const correspondeCategoria = categoriaSelecionada === ""
             || produto.categoria === categoriaSelecionada;
 

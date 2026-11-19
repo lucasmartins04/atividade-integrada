@@ -8,7 +8,7 @@
       "volume": "1L",
       "preco": 39.90,
       "estoque": 15,
-      "imagem": "",
+      "imagem": "https://placehold.co/300x300?text=Vodka",
       "descricao": "Vodka tradicional."
     },
     {
@@ -18,7 +18,7 @@
       "volume": "1L",
       "preco": 89.90,
       "estoque": 8,
-      "imagem": "",
+      "imagem": "https://placehold.co/300x300?text=Whisky",
       "descricao": "Whisky escocês."
     },
     {
@@ -28,7 +28,7 @@
       "volume": "750ml",
       "preco": 99.90,
       "estoque": 0,
-      "imagem": "",
+      "imagem": "https://placehold.co/300x300?text=Gin",
       "descricao": "Gin tradicional."
     },
     {
@@ -38,7 +38,7 @@
       "volume": "250ml",
       "preco": 9.90,
       "estoque": 20,
-      "imagem": "",
+      "imagem": "https://placehold.co/300x300?text=Red+Bull",
       "descricao": "Bebida energética."
     }
   ]
