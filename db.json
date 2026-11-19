@@ -1,4 +1,3 @@
-
 {
   "produtos": [
     {
@@ -6,8 +5,8 @@
       "nome": "Vodka Smirnoff",
       "categoria": "Vodka",
       "volume": "1L",
-      "preco": 39.90,
-      "estoque": 15,
+      "preco": 40,
+      "estoque": 0,
       "imagem": "https://placehold.co/300x300?text=Vodka",
       "descricao": "Vodka tradicional."
     },
@@ -16,7 +15,7 @@
       "nome": "Whisky Red Label",
       "categoria": "Whisky",
       "volume": "1L",
-      "preco": 89.90,
+      "preco": 89.9,
       "estoque": 8,
       "imagem": "https://placehold.co/300x300?text=Whisky",
       "descricao": "Whisky escocês."
@@ -26,7 +25,7 @@
       "nome": "Gin Beefeater",
       "categoria": "Gin",
       "volume": "750ml",
-      "preco": 99.90,
+      "preco": 99.9,
       "estoque": 0,
       "imagem": "https://placehold.co/300x300?text=Gin",
       "descricao": "Gin tradicional."
@@ -36,10 +35,11 @@
       "nome": "Red Bull",
       "categoria": "Energético",
       "volume": "250ml",
-      "preco": 9.90,
+      "preco": 9.9,
       "estoque": 20,
       "imagem": "https://placehold.co/300x300?text=Red+Bull",
       "descricao": "Bebida energética."
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
